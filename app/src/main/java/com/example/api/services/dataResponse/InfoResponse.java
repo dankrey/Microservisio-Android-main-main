@@ -7,5 +7,5 @@ import java.util.List;
 
 public class InfoResponse {
     @SerializedName("data") public List<InfoApi> data;
-    //@SerializedName("date") public InfoDate date;
+    @SerializedName("date") public Object date;
 }
